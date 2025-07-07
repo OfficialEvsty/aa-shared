@@ -12,7 +12,7 @@ type Item struct {
 // DropItem json struct holds data of boss's drop items
 type DropItem struct {
 	Item     Item   `json:"item"`
-	Quantity string `json:"quantity"`
+	Quantity string `json:"quantity" yaml:"rate"`
 }
 
 // Boss struct represents parsed data from AA db site about boss and his loot
